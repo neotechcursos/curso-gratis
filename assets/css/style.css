@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;800&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #74ebd5;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ACB6E5, #74ebd5);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ACB6E5, #74ebd5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+#cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    background-color: #fff;
+    height: 60px;
+}
+
+#titulo {
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.4rem;
+}
+
+#logo {
+    width: 150px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    height: 630px;
+}
+
+form {
+    position: relative;
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    width: 400px;
+    height: 605px;
+    border-radius: 30px;
+    overflow: hidden;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.7rem;
+    text-align: center;
+}
+
+
+#logo-icon {
+    margin-top: 15px;
+    width: 160px;
+    box-shadow: 2px 8px 76px 4px rgba(255,255,255,0.53);
+}
+
+#subtitulo {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    text-align: left;
+    font-weight: 400;
+}
+
+#nomes {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 10px;
+}
+
+#input_email {
+    margin-top: 10px;
+}
+
+#label_email {
+    margin-left: 23px;
+}
+
+#email {
+    width: 353px;
+}
+
+#input_telefone {
+    margin-top: 10px;
+}
+
+#label_telefone {
+    margin-left: 23px;
+}
+
+#telefone {
+    width: 353px;
+}
+
+#idade_bairro {
+    display: flex;
+    justify-content: center;
+    gap: 37px;
+    margin-top: 10px;
+}
+
+#idade {
+    text-align: center;
+}
+
+#input_resumo {
+    margin-top: 10px;
+}
+
+#label_resumo {
+    margin-left: 23px;
+    margin-bottom: 1px;
+}
+
+#resumo {
+    width: 353px;
+    height: 95px;
+}
+
+#label_cpf {
+    margin-left: 23px;
+    margin-top: 10px;
+}
+
+#cpf {
+    width: 353px;
+}
+
+#conhecimento {
+    display: flex;
+}
+
+.options {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 5px;
+}
+
+.option {
+    display: flex;
+    margin-top: 5px;
+}
+
+.question {
+    margin-top: 10px;
+    margin-left: 23px;
+}
+
+#whatsapp {
+    background: #34af23;
+    width: 400px;
+    height: 45px;
+    color: #fff;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-weight: 800;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    background: #34af23;
+    margin-top: 10px;
+    width: 353px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+    font-weight: 800;
+    color: #fff;
+}
+
+
+button:hover {
+    border: 1.9px #000 solid;
+    box-shadow:         3px 3px 3px rgba(50, 50, 50, 0.77);
+    transition: all ease 300ms;
+    color: #fff;
+    font-weight: 800;
+}
+
+#felipe {
+    /* width: 150px; */
+    height: 600px;
+    transform: translateY(70px);
+    
+}
+
+h3 {
+    font-size: 1.6em;
+}
+
+section {
+    background-color: #fff;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+#bio {
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 280px;
+    width: 400px;
+}
+
+#bio > p {
+    text-align: justify;
+    margin-top: 5px;
+}
+
+#bio > p {
+    text-align: justify;
+    margin-top: 5px;
+}
+
+#bio > p:nth-child(2) {
+    font-size: 1.3em;
+}
+
+#logo-whatsapp {
+    display: inline;
+}
+
+footer {
+    background-color: #000;
+    height: 70px;
+    z-index: 50;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2em;
+    position: relative;
+}
+
+
+
+
+
+

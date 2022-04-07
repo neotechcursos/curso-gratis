@@ -1,0 +1,55 @@
+@media only screen and (max-width: 414px) {
+    #titulo {
+        font-size: 1.2em;
+    }
+
+    main {
+        height: 690px;
+    }
+
+    form {
+        width: 380px;
+    }
+
+    #nomes {
+        gap: 7px;
+    }
+
+    #nome, #sobrenome {
+        width: 173px;
+    }
+
+    #idade_bairro {
+        gap: 20px;
+    }
+
+    #felipe {
+            width: 250px; /* width of container */
+            height: 250px; /* height of container */
+            object-fit: cover;
+    }
+
+    h3 {
+        text-align: center;
+    }
+
+    
+    #bio {
+        margin-top: 80px;
+        width: 355px;
+
+    }
+
+    #whatsapp {
+        margin: 20px 0;
+        width: 360px;
+    }
+
+    footer > a > p {
+        font-size: 0.9em;
+    }
+
+    a {
+        text-decoration: none;
+    }
+}
